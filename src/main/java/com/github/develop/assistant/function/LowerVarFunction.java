@@ -7,7 +7,7 @@ public class LowerVarFunction extends VariableBaseFunction {
 
     @Override
     public HotKey hotKey(int identifier) {
-        return new HotKey(JIntellitype.MOD_ALT, '1', "ALT + 1 小写字母开头");
+        return new HotKey(identifier, JIntellitype.MOD_ALT, '1', "ALT + 1 小写字母开头");
     }
 
     @Override
