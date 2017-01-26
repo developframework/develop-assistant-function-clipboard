@@ -3,7 +3,7 @@ package com.github.develop.assistant.function;
 import com.github.develop.assistant.HotKey;
 import com.melloware.jintellitype.JIntellitype;
 
-public class LowerVarFunction extends VariableBaseFunction {
+public class LowerCaseVarFunction extends VariableBaseFunction {
 
     @Override
     public HotKey hotKey(int identifier) {

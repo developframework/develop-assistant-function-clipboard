@@ -1,2 +1,2 @@
 com.github.develop.assistant.function.NewObjectFunction
-com.github.develop.assistant.function.LowerVarFunction
+com.github.develop.assistant.function.LowerCaseVarFunction
