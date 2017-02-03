@@ -10,7 +10,7 @@ public class NewObjectFunction extends VariableBaseFunction {
 
     @Override
     public HotKey hotKey(int identifier) {
-        return new HotKey(identifier, JIntellitype.MOD_ALT, '2', "构造新对象");
+        return new HotKey(identifier, JIntellitype.MOD_ALT, '2', "JAVA代码：Xxx -> Xxx xxx = new Xxx();");
     }
 
     @Override
