@@ -1,6 +1,5 @@
 package com.github.develop.assistant.function;
 
-import com.github.develop.assistant.Application;
 import com.github.develop.assistant.HotKeyFunction;
 
 import java.awt.*;
@@ -12,7 +11,7 @@ public abstract class VariableBaseFunction implements HotKeyFunction {
 
 
     @Override
-    public void event(Application application) {
+    public void event() {
         ClipboardContext clipboardContext = new ClipboardContext();
         String text = clipboardContext.getSystemClipboardTextContent();
         if(text != null && !text.isEmpty()) {
