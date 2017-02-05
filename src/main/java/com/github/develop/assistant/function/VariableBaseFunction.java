@@ -3,6 +3,8 @@ package com.github.develop.assistant.function;
 import com.github.develop.assistant.Application;
 import com.github.develop.assistant.HotKeyFunction;
 
+import java.awt.*;
+
 /**
  * Created by Administrator on 2017/1/24.
  */
@@ -20,4 +22,9 @@ public abstract class VariableBaseFunction implements HotKeyFunction {
     }
 
     protected abstract String dealText(String variable);
+
+    @Override
+    public MenuItem createMenuItem() {
+        return null;
+    }
 }

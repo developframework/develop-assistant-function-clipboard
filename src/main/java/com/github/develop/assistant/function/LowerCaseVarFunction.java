@@ -3,8 +3,6 @@ package com.github.develop.assistant.function;
 import com.github.develop.assistant.HotKey;
 import com.melloware.jintellitype.JIntellitype;
 
-import java.io.UnsupportedEncodingException;
-
 public class LowerCaseVarFunction extends VariableBaseFunction {
 
     @Override
