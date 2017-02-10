@@ -1,2 +1,6 @@
-com.github.develop.assistant.function.NewObjectFunction
-com.github.develop.assistant.function.LowerCaseVarFunction
+{
+    "functions": [
+        "com.github.develop.assistant.function.NewObjectFunction",
+        "com.github.develop.assistant.function.LowerCaseVarFunction"
+    ]
+}
